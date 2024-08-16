@@ -43,4 +43,8 @@ onMounted(drawCanvas)
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+canvas {
+	max-width: 90vw;
+}
+</style>

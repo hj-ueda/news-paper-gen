@@ -44,17 +44,10 @@ header {
   display: block;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    justify-content: center;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+header {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 </style>
